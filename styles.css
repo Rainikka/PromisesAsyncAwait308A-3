@@ -1,0 +1,77 @@
+* {
+  margin: 0 auto;
+  font-family: 'Montessarat', sans-serif;
+  font-size: 14px;
+}
+
+.shade {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+#app {
+  margin: 20px auto;
+  width: 500px;
+  height: auto;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#selectSect {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#cardSelector {
+  margin: 5px auto;
+  width: 300px;
+  height: 35px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid steelblue;
+  border-radius: 8px;
+}
+
+#imageBox {
+  margin: 15px auto;
+  display: none;
+  */ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clientPic {
+  width: 300px;
+  height: 360px;
+  display: block;
+}
+
+#cardTable {
+  width: 400px;
+  display: none;
+  align-items: center;
+  font-family: 'Calibri', sans-serif;
+  font-size: 11px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid steelblue;
+
+
+}
+
+ul {
+  list-style-type: none;
+  ;
+}
