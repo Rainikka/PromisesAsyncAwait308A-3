@@ -52,7 +52,7 @@
 * 1. db.username: string
 * 2. vt.name: string
 * 3. vt.email: string
-*4. vt.address: obj
+* 4. vt.address: obj
 * 5. vt.phone: string
 * 6. db.website,: string
 * 7. db.company. obj
@@ -110,22 +110,22 @@ function clientRolodex(clients) {
   clients.forEach(client => {
     const option = document.createElement('option');
     option.value = client.id;
-    option.textContent = client.company.name;
+    option.textContent = `${client.id}. ${client.company.name}`;
     cardSelector.appendChild(option);
   });
 
-  /*** Selector Tool Dynamic Card Change ***/
-  cardSelector.onchange = () => {
-    const selectedClientId = cardSelector.value;
-    if (selectedClientId) {
-      const selectedClient = clients.find(client => client.id == selectedClientId);
-      if (selectedClient) {
-        updateClientProfile(selectedClient);
-      }
+/*** Selector Tool Dynamic Card Change ***/
+cardSelector.onchange = () => {
+  const selectedClientId = cardSelector.value;
+  if (selectedClientId) {
+    const selectedClient = clients.find(client => client.id == selectedClientId);
+    if (selectedClient) {
+      updateClientProfile(selectedClient);
     }
-  };
+  }
+};
 
-  selectSect.appendChild(cardSelector);
+selectSect.appendChild(cardSelector);
 }
 
 /*** Add Client Company Data to Card ***/
@@ -164,4 +164,3 @@ function updateClientProfile(client) {
     document.getElementById('companyBS').textContent = client.company.bs;
   }
 }
-
