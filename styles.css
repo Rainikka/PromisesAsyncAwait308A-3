@@ -1,95 +1,88 @@
 * {
+  box-sizing: border-box;
   margin: 0 auto;
-  font-family: 'Montessarat', sans-serif;
-  font-size: 14px;
+  font-family: Arial, sans-serif;
 }
 
-.shade {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+body {
+  margin: 20px auto;
+  width: 600px;
+  padding: 20px;
+  text-align: center;
 }
 
 #app {
-  margin: 10px auto;
-  width: auto;
-  height: auto;
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
 }
 
 #selectSect {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 #cardSelector {
-  margin: 5px auto;
-  width: 360px;
-  height: 35px;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: aliceblue;
-  border: 2px solid steelblue;
-  border-radius: 8px;
+  margin: 10px auto;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  font-size: 16px;
 }
 
 #main {
-  margin: 0 auto;
-  width: 360px;
-  height: auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: 2px solid steelblue;
+  margin: 20px auto;
+  width: 100%;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 #imageBox {
   margin: 15px auto;
-  width: 350px;
-  height: auto;
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #ddd;
   display: none;
-  border: 1px solid steelblue;
 }
 
 #clientPic {
-  width: 350px;
-  max-width: 100%;
-  height: 380px;
+  width: 100%;
+  height: auto;
   display: block;
 }
 
 #cardTable {
-  margin: 0 auto;
-  width: 340px;
+  margin: 20px auto;
+  width: 100%;
   max-width: 400px;
-  display: none;
-  align-items: center;
-  font-family: 'Calibri', sans-serif;
-  font-size: 11px;
   border-collapse: collapse;
+  display: none;
+  font-size: 16px;
 }
 
-th,
-td {
+th, td {
   padding: 8px;
   text-align: left;
-  border: 1px solid steelblue;
+  border: 1px solid #ddd;
 }
 
 th {
-  background-color: aliceblue;
+  background-color: #f0f0f0;
   text-align: center;
 }
 
 ul {
-  list-style-type: none;
-  ;
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 100%;
+}
 }
