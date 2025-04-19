@@ -25,7 +25,7 @@ body {
 
 #cardSelector {
   margin: 10px auto;
-  width: 350px;
+  width: 400px;
   padding: 8px;
   border: 1px solid steelblue;
   border-radius: 4px;
@@ -44,7 +44,7 @@ body {
 #imageBox {
   margin: 0 auto;
   width: 100%;
-  width: 350px;
+  width: 400px;
   display: none;
 }
 
@@ -58,7 +58,7 @@ body {
 #cardTable {
   margin: 20px auto;
   width: 100%;
-  max-width: 400px;
+  width: 400px;
   border-collapse: collapse;
   display: none;
   font-size: 14px;
@@ -73,7 +73,6 @@ td {
 
 th {
   background-color: lightsteelblue;
-  color: midnightblue;
   font-weight: bold;
   text-align: center;
 }
