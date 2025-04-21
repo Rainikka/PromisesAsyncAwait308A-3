@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0 auto;
   font-family: Arial, sans-serif;
+  font-size: 13px;
 }
 
 body {
@@ -25,13 +26,12 @@ body {
 
 #cardSelector {
   margin: 10px auto;
-  width: 400px;
+  width: 275px;
   padding: 8px;
   border: 1px solid steelblue;
   border-radius: 4px;
   background: #eee;
   text-align: center;
-  font-size: 16px;
 }
 
 #main {
@@ -44,13 +44,14 @@ body {
 #imageBox {
   margin: 0 auto;
   width: 100%;
-  width: 400px;
+  width: 275px;
   display: none;
 }
 
 #clientPic {
+  margin: 0;
   width: 100%;
-  height: auto;
+  height: 325px;
   display: block;
   border: 1.5px solid #ddd;
 }
@@ -58,10 +59,9 @@ body {
 #cardTable {
   margin: 20px auto;
   width: 100%;
-  width: 400px;
+  width: 285px;
   border-collapse: collapse;
   display: none;
-  font-size: 14px;
 }
 
 th,
@@ -75,6 +75,13 @@ th {
   background-color: lightsteelblue;
   font-weight: bold;
   text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 100%;
 }
 
 ul {
